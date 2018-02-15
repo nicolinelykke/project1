@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #ffffff;
+	height: 100%;
+	min-width: 320px;
+}
+
+.fullscreen {
+	min-height: 100%;
+}
+
+#one {
+  background-image: url(../images/one.jpg);
+	background-size: cover;
+  background-color: blue;
+}
+
+#two {
+  background-image: url(../images/two.jpg);
+	background-size: cover;
+  background-color: red;
+}
+
+#three {
+	background-size: cover;
+  background-color: blue;
+}
+
+#four {
+  background-size: cover;
+  background-color: red;
+}
