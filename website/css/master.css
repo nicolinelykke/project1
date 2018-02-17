@@ -23,10 +23,9 @@ body {
 }
 
 #two {
-  background-image: url(../images/vr-guy.jpg);
+  background-image: url(../images/guy-using-vr.jpg);
 	background-size: cover;
   position: relative;
-  top:0;
 }
 
 #three {
@@ -39,7 +38,7 @@ body {
   background-color: red;
 }
 
-#vr-guy {
+#vr-text {
   width: 700px;
   font-family: tahoma;
   font-size: 32px;
