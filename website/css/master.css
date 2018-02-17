@@ -37,3 +37,11 @@ body {
   background-size: cover;
   background-color: red;
 }
+
+#vr-guy {
+  width: 700px;
+  font-family: tahoma;
+  font-size: 32px;
+  padding-top: 5%;
+  padding-left: 5%;
+}
