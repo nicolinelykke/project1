@@ -25,7 +25,6 @@ body {
 #two {
   background-image: url(../images/vr-guy.jpg);
 	background-size: cover;
-  background-color: red;
 }
 
 #three {
@@ -43,5 +42,11 @@ body {
   font-family: tahoma;
   font-size: 32px;
   padding-top: 5%;
-  padding-left: 5%;
+  padding-left: 3%;
+}
+
+#contact {
+  position: relative;
+  left: 1400px;
+  top: 565px;
 }
