@@ -25,6 +25,8 @@ body {
 #two {
   background-image: url(../images/vr-guy.jpg);
 	background-size: cover;
+  position: relative;
+  top:0;
 }
 
 #three {
@@ -46,7 +48,8 @@ body {
 }
 
 #contact {
-  position: relative;
-  left: 1400px;
-  top: 565px;
+  height: 81px;
+  position: absolute;
+  bottom: 6%;
+  right: 10%;
 }
