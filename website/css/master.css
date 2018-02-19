@@ -152,6 +152,15 @@ section {
   padding: 10px;
 }
 
+#vr-text2 {
+  width: 700px;
+  font-family: tahoma;
+  color: #ffff;
+  font-size: 32px;
+  padding-top: 10%;
+  padding-left: 55%;
+}
+
 #contact {
   height: 81px;
   position: absolute;
