@@ -148,17 +148,19 @@ section {
   top: 50%;
   left: 3%;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 10px;
 }
 
 #vr-text2 {
+  position: absolute;
   width: 700px;
-  font-family: tahoma;
-  color: #ffff;
   font-size: 32px;
-  padding-top: 10%;
-  padding-left: 55%;
+  top: 30%;
+  left: 55%;
+  background-color: white;
+  opacity: 0.9;
+  padding: 10px;
 }
 
 #contact {
