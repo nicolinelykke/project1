@@ -12,6 +12,10 @@ body {
 	min-width: 320px;
 }
 
+section {
+  position: relative;
+}
+
 .fullscreen {
 	min-height: 100%;
 }
@@ -25,7 +29,6 @@ body {
 #two {
   background-image: url(../images/guy-using-vr.jpg);
 	background-size: cover;
-  position: relative;
 }
 
 #three {
