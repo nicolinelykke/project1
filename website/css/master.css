@@ -19,29 +19,71 @@ header {
   width: 100%;
   height: 64px;
   background-color: rgba(243, 243, 243, 0.95);
+  margin-bottom: 1em;
+}
+
+header p {
+	display: block;
+	margin: 1em 0 0 0;
+	padding: 0 0 0.5em 0;
 }
 
 nav {
-  right: 0;
+  position: absolute;
+	right: 0.5em;
+	top: 0;
+	height: 3em;
+	line-height: 3em;
 }
 
 nav ul {
   text-align: right;
+  right: 0;
 }
 
-nav li {
+nav ul li {
+  display: inline-block;
+	margin-left: 0.5em;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	height: 3em;
+	line-height: 3em;
+  padding: 0 0.5em 0 0.5em;
+  color: grey;
+  font-size: 20px;
+}
+
+footer {
+  background-color: black;
+  height: 5em;
+  vertical-align: center;
+}
+
+footer ul {
+  right: 0;
+}
+
+footer ul li {
   display: inline-block;
 }
 
-nav li a {
+footer ul li a {
 	display: block;
-	color: inherit;
-	text-decoration: none;
-	height: 64px;
-	line-height: 3em;
-  font-size: 18px;
+	height: 4em;
+	line-height: 4em;
   padding: 0 0.5em 0 0.5em;
-  color: #39454b;
+  color: grey;
+  font-size: 20px;
+}
+
+footer ul li img {
+  position: relative;
+	width: 30px;
+  height: 30px;
+  top: 15%;
 }
 
 .fullscreen {
