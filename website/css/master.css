@@ -120,3 +120,18 @@ section {
   background-size: cover;
   background-color: red;
 }
+
+#vr-text {
+  width: 700px;
+  font-family: tahoma;
+  font-size: 32px;
+  padding-top: 5%;
+  padding-left: 3%;
+}
+
+#contact {
+  height: 81px;
+  position: absolute;
+  bottom: 6%;
+  right: 10%;
+}
