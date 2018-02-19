@@ -19,7 +19,7 @@ header {
   position: fixed;
   width: 100%;
   height: 64px;
-  background-color: rgba(243, 243, 243, 0.95);
+  background-color: rgba(243, 243, 243, 1);
   margin-bottom: 1em;
 }
 
@@ -59,19 +59,27 @@ nav ul li a {
 
 footer {
   background-color: black;
-  height: 5em;
-  vertical-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-footer ul {
+footer p {
+  flex-grow: 1;
+}
+
+.social-media {
+  background-color: black;
+}
+
+.social-media ul {
   right: 0;
 }
 
-footer ul li {
+.social-media ul li {
   display: inline-block;
 }
 
-footer ul li a {
+.social-media ul li a {
 	display: block;
 	height: 4em;
 	line-height: 4em;
@@ -80,11 +88,16 @@ footer ul li a {
   font-size: 20px;
 }
 
-footer ul li img {
+.social-media ul li img {
   position: relative;
 	width: 30px;
   height: 30px;
   top: 15%;
+  opacity: 0.5;
+}
+
+.icon:hover {
+  opacity: 1;
 }
 
 section {
@@ -103,8 +116,8 @@ section {
   width: auto;
   height: auto;
   min-width: 100%;
-  min-height: 100%;
 }
+
 
 #two {
   background-image: url(../images/vr.jpg);
@@ -119,20 +132,49 @@ section {
 
 #four {
   background-size: cover;
-  background-color: red;
+  background-color: white;
+}
+
+#contact-page {
+  background-size: cover;
+  background-color: white;
+  min-height: 100%;
 }
 
 #vr-text {
+  position: absolute;
   width: 700px;
-  font-family: tahoma;
   font-size: 32px;
-  padding-top: 7%;
-  padding-left: 3%;
+  top: 50%;
+  left: 3%;
+  background-color: white;
+  opacity: 0.9;
+  padding: 10px;
+}
+
+#vr-text2 {
+  position: absolute;
+  width: 700px;
+  font-size: 32px;
+  top: 30%;
+  left: 55%;
+  background-color: white;
+  opacity: 0.9;
+  padding: 10px;
 }
 
 #contact {
   height: 81px;
   position: absolute;
+  margin: auto;
   bottom: 6%;
   right: 10%;
+}
+
+#arrow {
+  height: 81px;
+  position: absolute;
+  bottom: 12%;
+  right: 50%;
+  margin-right: -50.5px;
 }
