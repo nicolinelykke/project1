@@ -147,10 +147,10 @@ section {
   position: absolute;
   width: 700px;
   font-size: 32px;
-  top: 50%;
-  left: 3%;
-  background-color: white;
-  opacity: 0.9;
+  top: 40%;
+  left: 5%;
+  /*background-color: white;*/
+  opacity: 1;
   padding: 10px;
 }
 
@@ -169,8 +169,10 @@ section {
   height: 81px;
   position: absolute;
   margin: auto;
-  bottom: 6%;
-  right: 10%;
+  bottom: 10%;
+  left: 5%;
+  /*margin-left: 192px;*/
+  opacity: 1;
 }
 
 #arrow {
