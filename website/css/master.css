@@ -220,6 +220,10 @@ p {
   padding-top: 20px;
 }
 
+h2 {
+  padding-top: 10%;
+}
+
 input[type=text], textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */
