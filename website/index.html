@@ -15,10 +15,9 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#one">One</a></li>
-          <li><a href="#two">Two</a></li>
-          <li><a href="#three">Three</a></li>
-          <li><a href="#four">Four</a></li>
+          <li><a href="#one">Intro</a></li>
+          <li><a href="#two">Info</a></li>
+          <li><a href="#four">Our Work</a></li>
           <li><a href="#contact-page">Contact</a></li>
         </ul>
       </nav>
@@ -56,7 +55,33 @@
       </a>
     </section>
     <section id="four" class="fullscreen">
-      <p>hej</p>
+      <h2>Our work</h2>
+      <p>
+        Our virtual reality content maximizes the potential of the platform and adds value to the customer. Our customers can expect a customized product, that fits into their vision and that can adapt to the future. While VR is the core of our business, we've also delivered projects on other platforms, such as PC & Mobile.
+      </p>
+      <div class="flexbox">
+        <figure id="zentropa_act_modal">
+          <div class="image_container">
+            <img class="image" src="images/zentropa.jpg" alt="Zentropa">
+            <div class="image_overlay">
+            </div>
+          </div>
+        </figure>
+        <figure>
+          <div class="image_container" id="ostfyn_act_modal">
+            <img class="image" src="images/ostfyn.jpg" alt="Oestfyns Museer">
+            <div class="image_overlay">
+            </div>
+          </div>
+        </figure>
+        <figure>
+          <div class="image_container" id="spilfabrik_act_modal">
+            <img class="image" src="images/spilfabrik.jpg" alt="Den Fynske Spilfabrik">
+            <div class="image_overlay">
+            </div>
+          </div>
+        </figure>
+      </div>
     </section>
     <footer id="contact-page">
       <h2>Let's work together.</h2>
@@ -96,5 +121,45 @@
   			</ul>
       </div>
     </footer>
+
+
+    <!-- Zentropa -->
+    <div id="zentropa_modal" class="modal">
+      <div class="modal-content">
+
+      </div>
+    </div>
+
+    <!-- Østfynske Museer -->
+    <div id="ostfyn_modal" class="modal">
+      <div class="modal-content">
+
+      </div>
+    </div>
+
+      <!-- Den Fynske Spilfabrik -->
+      <div id="spilfabrik_modal" class="modal">
+        <div class="modal-content">
+
+          </div>
+        </div>
+
+      <script>
+      //Når modal er åben kan man ved at trykke på escape lukke modal ned igen
+        document.addEventListener("keydown", function(e){
+            if (e.key == "Escape") {
+            {
+              document.getElementById('zentropa_modal').style.display = 'none';
+
+              document.getElementById('ostfyn_modal').style.display = 'none';
+
+              document.getElementById('spilfabrik_modal').style.display = 'none';
+
+              document.getElementsByTagName("BODY")[0].style.overflow = 'auto';
+              }
+            }
+        });
+      </script>
+        <script src="scripts/script.js"></script>
   </body>
 </html>
