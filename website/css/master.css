@@ -217,23 +217,24 @@ section {
 }
 
 p {
-  padding-top: 20px;
+  padding-top: 2%;
 }
 
 h2 {
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 input[type=text], textarea {
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
+    padding: 10px; /* Some padding */
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-top: 5px; /* Add a top margin */
+    margin-bottom: 5px; /* Bottom margin */
     resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
     font-size: 21px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -245,6 +246,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font-size: 21px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
