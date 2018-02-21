@@ -12,8 +12,8 @@
   </head>
   <body>
     <header>
-      <div class="logo"><a href="https://artifactgamesolutions.com"><img src="images/artifact-logo.png" alt="artifact logo" class="logo"></a></div>
-      <h1>Artifact Game Solutions</h1>
+      <div class="logo"><a href="https://artifactgamesolutions.com"><img itemprop="image"  src="images/artifact-logo.png" alt="artifact logo" class="logo"></a></div>
+      <h1 itemprop="name">Artifact Game Solutions</h1>
       <nav>
         <ul>
           <li><a href="#one">Intro</a></li>
@@ -106,9 +106,12 @@
         <input type="submit" value="Submit">
         </form>
       </div>
-        <p>Phone: (+45) 60 60 29 16
+        <p>Phone: <span itemprop="telephone">(+45) 60 60 29 16</span>
           <br/>
-        Address: Stationsvej 69, 5792 Årslev</p>
+        Address: <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="streetAddress">Stationsvej 69</span>,
+        <span itemprop="postalCode">5792</span>
+        <span itemprop="addressLocality">Årslev</span></span></p></p>
       </br>
       <div class="social-media">
         <ul class="actions">
