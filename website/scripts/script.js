@@ -3,7 +3,7 @@
 var body = document.getElementsByTagName("BODY")[0];
 
 
-//2D-animation
+//Zentropa
 
 // Get the modal
 var zentropa_modal = document.getElementById('zentropa_modal');
@@ -14,10 +14,9 @@ var zentropa_btn = document.getElementById("zentropa_act_modal");
 // When the user clicks the button, open the modal
 zentropa_btn.onclick = function() {
   zentropa_modal.style.display = "block";
-  init_island();
 }
 
-//Games
+//Østfyn
 
 var ostfyn_modal = document.getElementById('ostfyn_modal');
 
@@ -27,7 +26,7 @@ ostfyn_btn.onclick = function() {
   ostfyn_modal.style.display = "block";
 }
 
-//3D-animation
+//Den fynske spilfabrik
 
 var spilfabrik_modal = document.getElementById('spilfabrik_modal');
 
@@ -43,8 +42,8 @@ window.onclick = function(event) {
   if (event.target == zentropa_modal) {
     zentropa_modal.style.display = "none";
   }
-  else if (event.target == games_modal) {
-    games_modal.style.display = "none";
+  else if (event.target == ostfyn_modal) {
+    ostfyn_modal.style.display = "none";
   }
   else if (event.target == spilfabrik_modal) {
     spilfabrik_modal.style.display = "none";
