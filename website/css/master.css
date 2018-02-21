@@ -15,7 +15,7 @@ body {
 }
 
 section, footer {
-  font-size: 24px;
+  font-size: 27px;
 }
 
 header {
@@ -168,10 +168,10 @@ section {
 
 #vr-text2 {
   position: absolute;
+  color: #ffff;
   width: 700px;
-  top: 30%;
-  right: 5%;
-  background-color: white;
+  top: 60%;
+  right: 60%;
   opacity: 0.9;
   padding: 10px;
   border-radius: 10px;
