@@ -148,7 +148,7 @@ section {
 
 #four {
   background-size: cover;
-  background-color: white;
+  background-color: lightgray;
 }
 
 #contact-page {
@@ -187,7 +187,7 @@ section {
   opacity: 1;
 }
 
-#arrow {
+.arrow {
   height: 81px;
   position: absolute;
   bottom: 0px;
@@ -363,10 +363,15 @@ input[type=submit]:hover {
   background-color: rgba(0, 0, 0, 0.8);
   margin: 5% 20% 5% 20%;
   padding: 20px;
+
 }
 
 .modal-content img {
   margin: auto;
+}
+
+.modal-content p {
+  text-align: center;
 }
 
 figure {
